@@ -89,8 +89,8 @@
             <a href="https://forge.laravel.com">Forge</a>
             <a href="https://github.com/laravel/laravel">GitHub</a>
         </div>
-        <button type="button">關於本站</button>
-        <button type="button">首頁</button>
+        <input type ="button" onclick="javascript:location.href='{{ route('about.index') }}'" value="關於本站"></input>
+        <input type ="button" onclick="javascript:location.href='{{ route('home.index') }}'" value="首頁"></input>
     </div>
 </div>
 </body>

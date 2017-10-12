@@ -90,9 +90,8 @@ html, body {
         <a href="https://github.com/laravel/laravel">GitHub</a>
 
     </div>
-
-    <button type="button">關於本站</button>
-    <button type="button">最新消息</button>
+    <input type ="button" onclick="javascript:location.href='{{ route('about.index') }}'" value="關於本站"></input>
+    <input type ="button" onclick="javascript:location.href='{{ route('news.index') }}'" value="最新消息"></input>
 </div>
 </div>
 </body>
