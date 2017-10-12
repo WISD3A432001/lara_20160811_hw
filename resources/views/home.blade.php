@@ -88,7 +88,11 @@ html, body {
         <a href="https://laravel-news.com">News</a>
         <a href="https://forge.laravel.com">Forge</a>
         <a href="https://github.com/laravel/laravel">GitHub</a>
+
     </div>
+
+    <button type="button">關於本站</button>
+    <button type="button">最新消息</button>
 </div>
 </div>
 </body>
